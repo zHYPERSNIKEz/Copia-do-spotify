@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Pessoal</title>
+    <link rel="stylesheet" href="teste_colegaFaculdade.css">
+</head>
+<body>
+  <nav>
+    <a href="#Sobre" onclick="seleccionar() ">Sobre Mim</a>
+    <a href="#Formação" onclick="seleccionar() ">Formação</a>
+    <a href="#Portfólio" onclick="seleccionar() ">Portfólio</a>
+    <a href="#Contato" onclick="seleccionar() ">Contato</a>
+  </nav>
+
+  <section id="Sobre">
+    <img src="minha-foto.jfif" alt="Minha foto">
+    <h1 class="sobre">SOBRE MIM</h1>
+        <h3><p> Olá. Tudo bem? <br> Me chamo Mauricio Santos Silva. <br> Tenho 24 anos. <br> Gosto de ler e assistir filmes. </p></h3>
+  </section>
+
+  <section id="Formação">
+    <h1>FORMAÇÃO</h1>
+        <p>Cursando <b>Análise e Desenvolvimento de Sistemas</b> pela UNINTER!<br> Cursando <b>Inglês NEW UBEST</b> pela UNINTER<br> Nivel básico de <b>Espanhol</b></p> 
+    </section>
+
+  <section id="Portfólio">
+    <h1>PORTFÓLIO</h1>
+    <p>POR ENQUANTO VOU DEIXAR EM BRANCO ESSA PARTE</p>
+    </section>
+
+    <section id="Contato">
+        <h2>CONTATO</h2>        
+        <form>
+          <label for="nome">Nome:</label>
+             <input type="text" id="nome" name="nome" required>
+          <label for="email">Email:</label> 
+             <input type="email" id="email" name="email" required>
+          <label for="mensagem">Mensagem:</label>
+             <textarea id="mensagem" name="mensagem" 
+       rows="3" required></textarea>
+      
+          <button type="submit">Enviar</button>
+        </form> 
+      
+      </section>
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+body{
+    background-color: gray;
+}
+h1{
+    text-align: center;
+}
+div{
+    border-radius: 15px;
+    position: absolute;
+    background-color: aqua;
+    margin: 10px;
+    padding: 50px;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+}
+input{
+
+    margin: 10px; 
+    width: 100%;
+
+}
+button{
+    position: absolute;
+    right:20px;
+}

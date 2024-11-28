@@ -1,0 +1,65 @@
+
+:root{
+    font-family: "Alice", serif;
+    line-height: 150%;
+    color: #573a37;
+}
+body{
+    background-image: url(desfoque.PNG);
+    background-size:  cover ;
+    margin: auto;
+    
+    
+}
+.conteiner{
+    box-sizing: border-box;
+    width: 800px;
+    padding: 24px;
+    background-color: #f0E8C2;
+    border-radius: 24px;
+    margin: 48px auto 28px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+img{
+    border-radius: 16px;
+    width:90%;
+    height: auto;
+    margin-left: 5%;
+    
+}
+main{
+    padding: 24px;
+
+}
+
+section + section{
+    margin-top: 24px;
+}
+
+#about p + p{
+    margin-top: 12px;
+}
+
+h1{
+    line-height: 140%;
+    font-size: 40px;
+}
+h2{
+    font-size: 24px;
+}
+h1,h2{
+    color: #291b1a
+}
+ul{
+    padding-left: 24px;
+}
+footer{
+    color: #f0E8C2;
+    text-align: center;
+    padding-bottom: 48px;
+}
