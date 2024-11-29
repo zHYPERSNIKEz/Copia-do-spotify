@@ -1,0 +1,22 @@
+body{
+    background-color: whitesmoke;
+    margin: 2%;
+    
+}
+
+input{
+    margin-top: 2%;
+    position: relative;
+    background-color: rgba(255, 254, 254, 0);
+    box-sizing: border-box;
+    border: 2px solid rgb(158, 156, 156);
+    width: 50%;
+    height: 40px;
+    border-radius: 55px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+input:hover{
+    
+}
