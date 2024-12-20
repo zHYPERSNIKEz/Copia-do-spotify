@@ -1,0 +1,23 @@
+nav{
+    display: flex;
+    justify-content: space-between;/*espaço entre os elementos*/
+    align-items: center;
+    line-height: 0;/*tira espaço dos objetos ao redor*/
+    padding-block:20px ; /*adicinar espaço desejado */
+
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding-block: 8px;
+}
+
+nav ul li:last-child img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;/*faz com quer a imagem cubra toda a area demarcarda pela o width e heigth*/
+    border-radius: 50%;
+}

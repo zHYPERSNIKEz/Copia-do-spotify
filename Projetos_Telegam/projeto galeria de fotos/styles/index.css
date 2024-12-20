@@ -1,0 +1,18 @@
+@import url(global.css);
+@import url(nav.css);
+/*minhas alterações*/
+img#logomarca{
+    width: 100px;
+    height: auto;
+
+}
+img#lupa{
+    width: 25px;
+    height: auto;
+}
+/*img#amor{
+    width: 200px;
+    height: 190px;
+    border-radius: 90%;
+}*/
+/*inicio do codigo */

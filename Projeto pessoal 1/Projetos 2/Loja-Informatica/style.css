@@ -1,0 +1,210 @@
+
+
+html{
+    margin: auto;
+}
+body{
+    max-width: 95%;
+}
+
+div{
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 6px;
+}
+img#logo{
+    width: 50px;
+    height: auto;
+
+}
+a#home{
+    display: inline-flex;
+    color:red;
+    bottom: 30px;
+ 
+
+}
+div#home{
+    display: flex;
+    align-items: center;
+    position:fixed;
+    width: 90%;
+    top: 10px;
+    left: 50px;
+    z-index: 4;
+    padding: 5px;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    
+}
+div.inicial{
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-top: 8%;
+    background-image: linear-gradient(155deg, rgb(219, 217, 217), rgb(238, 236, 236));
+    overflow: hidden;
+    padding-bottom: 40%;
+    
+   
+    
+
+}
+h1{
+    position: absolute;
+    z-index: 1;
+    font-size: 150px;
+    top: 30%;
+    left: 50%;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.74);
+    text-align: center;
+    align-items: center;
+    transform: translate(-50%,-50%);
+}
+h2{
+    position: relative;
+}
+
+h3.inicial,h2{
+    
+    padding-left: 15%;
+    font-size: 40px;
+}
+img.foto_inicial{
+    width: 30%;
+    height: auto;
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    z-index: 2;
+
+}
+span{
+    position: absolute;
+    left: 80%;
+    bottom: 35%;
+    
+}
+h3.descripiont{
+    position: absolute;
+    bottom: 20%;
+    left: 75%;
+    text-align: left;
+    font-size: 10px;
+}
+button.inicial{
+    position: absolute;
+    top: 60%;
+    left: 12%;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 15px;
+    background-color: red;
+    cursor: pointer;
+}
+div.galeria{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+
+}
+
+div.earphone{
+    display: flex;
+    background-image: linear-gradient(120deg, black, gray);
+    color: white;
+    width: 25%;
+    height: 25%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+h2.earphone, h2.notebbok,h2.gad,h2.console, h2.amazon{
+    z-index: 2;
+
+}
+img.earphone{
+    margin: 5px;
+    position: absolute;
+    width: 40%;
+    left: 50%;
+    top: 50%;
+}
+
+h2.earphone{
+    display: flex;
+    position: relative;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    justify-content: center;
+    align-items:center ;
+    font-size: 50px;
+    
+}
+
+img.earphone, img.notebbok,img.gad,img.console,img.gameOculos, img.amazon{
+    position: relative;
+    z-index: 1;
+    
+}
+
+button.earphone, button.notebook{
+    position: relative;
+    left: 15px;
+    font-size: 15px;
+    border-radius: 15px;
+    background-color: red;
+    color:white;
+    padding: 5px;
+
+}
+
+div.gad{
+    background-color: yellow;
+    color: white;
+    width: 25%;
+    height: 4%;
+
+}
+img.gad{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+
+
+}
+
+div.notebook{
+    background-color: red;
+
+}
+
+div.console{
+    background-color: wheat;
+}
+
+div.gameOculos{
+    background-color: green;
+}
+
+div.amazon{
+    background-color: rgb(35, 35, 245);
+}
+a{
+    padding: 5px;
+    text-decoration: none;
+}
+a#home:hover{
+    color: black;
+}
+button.eraphone,button.gad,button.notebook,button.console,button.amazon,button.gameOculos{
+    cursor: pointer;
+    border-radius: 15px;
+    position: relative;
+}
+button:hover{
+    box-shadow: 2px 2px;
+}
