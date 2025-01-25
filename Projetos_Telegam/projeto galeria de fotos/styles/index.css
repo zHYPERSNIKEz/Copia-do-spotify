@@ -1,9 +1,15 @@
 @import url(global.css);
 @import url(nav.css);
+@import url(header.css);
+@import url(main.css);
+@import url(footer.css);
+
 /*minhas alterações*/
 img#logomarca{
     width: 100px;
     height: auto;
+    border-radius: 50% ;
+    object-fit: cover;
 
 }
 img#lupa{
@@ -14,9 +20,16 @@ img.pointer{
     width: 20px;
     height: auto;
 }
-/*img#amor{
+img#fotoPrincipal{
     width: 200px;
-    height: 190px;
+    height: 200px;
     border-radius: 90%;
-}*/
+    object-fit: cover;
+}
+
+p{
+    max-width: 260px; /* Ajuste a largura máxima conforme necessário*/ 
+    word-wrap: break-word; /* Quebra palavras longas */
+}
+
 /*inicio do codigo */

@@ -1,0 +1,27 @@
+div.cotato{
+    background-color: aliceblue;
+    border-radius: 8px;
+    margin: 5px 5px 5px 5px;
+    padding: 0.2px;
+}
+
+
+
+button{
+    position: relative;
+    width:150px;
+    height: auto;
+    left: 50%;
+    transform: translate(-50%);
+    margin: 10px;
+    padding: 2%;
+    font-size: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-image: linear-gradient(#833AB4,#E1306C,#FD1D1D,
+#FCAF45) ;
+
+}

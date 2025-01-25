@@ -1,0 +1,45 @@
+header{
+    position: relative;
+    margin: 15px;
+    padding-block: 15px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(248, 244, 3, 0.911);
+    border-radius: 15px;
+    gap: 5px;
+
+    
+
+}
+
+header h1, h2{
+      text-align: center;
+}
+
+
+    
+input{
+    top: 20px;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(4px);
+    box-sizing: border-box;
+    border: 2px solid rgb(253, 251, 251);
+    width: 50%;
+    height: 40px;
+    border-radius: 55px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-size: 15px;
+}
+input::placeholder{
+    color: black;
+    opacity: 1;
+
+}
+/* Faz o placeholder desaparecer quando o input está em foco */
+input:focus::placeholder{
+    color: transparent;/* Torna o texto do placeholder transparente */
+}
