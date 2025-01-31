@@ -76,6 +76,7 @@
     overflow: hidden;
     white-space: nowrap;
     outline: none;
+   
     
 }
 
@@ -110,4 +111,9 @@
 
 .subscribe:hover{
     text-decoration: underline;
+    color: #fff;
 }
+
+
+
+
