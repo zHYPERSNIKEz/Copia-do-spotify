@@ -1,5 +1,11 @@
-/*HEADER*/
+@import url(vars.css);
 
+
+/*HEADER*/
+main{
+    display: grid;
+    justify-content: space-between;
+}
 .main-container{
     max-width: 800vw;
     height: 100vh;
