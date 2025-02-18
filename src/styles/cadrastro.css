@@ -1,0 +1,50 @@
+@import url(vars.css);
+@import url(resest.css);
+
+:root{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(167, 116, 116);
+    color: #fff;
+}
+.containerPrincipal{
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    align-items: center;
+    margin: 6rem;
+    background-color: rgb(139, 199, 70);
+    
+    .container{
+        display: grid;
+        width: 100vh;
+        height: auto;
+        border: none;
+        margin: 1rem;
+
+        & .inicio{ 
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin: 2rem;
+            padding: 2rem;
+           
+            & img{
+                width: 5rem;
+                height: 5rem;
+            }
+
+            & h1{
+                font-size: 2rem;
+            }
+           
+        }
+        
+    }
+}
