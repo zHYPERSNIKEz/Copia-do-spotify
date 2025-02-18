@@ -51,14 +51,14 @@ body{
             padding-bottom: 1rem;
             justify-content: center;
             align-items: center;
-            
+            border-bottom: 1px solid black;
             & button{
                 position: relative;
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 width: 20rem;
-                height: 2rem;
+                height: 2.9rem;
                 text-align: center;
                 background: #000000;
                 border: 1px solid black;
