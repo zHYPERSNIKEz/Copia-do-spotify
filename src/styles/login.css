@@ -1,5 +1,5 @@
-@import url(../../styles/resest.css);
-@import url(../../styles/vars.css);
+@import url(./resest.css);
+@import url(./vars.css);
 :root{
     margin: 0;
     padding: 0;
