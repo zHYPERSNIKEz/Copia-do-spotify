@@ -150,20 +150,60 @@ body{
                 height: 5vh;
                 cursor: pointer;
                 font-size: medium;
-                letter-spacing: 2px;
+                letter-spacing: 0.8px;
                
                 &:hover{
                     background-color: rgb(49, 218, 57);
-                    font-size: larger;
+                    font-size: 1.5rem;
                 }
             }
            
         }
+        article{
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+            text-align: center;
+            margin-bottom: 2rem;
+            color: #a19e9e;
+
+            & fifigcaption{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 1rem;
+                
+            }
+
+            & a {
+                color: #ffff;
+
+                &:hover{
+                    color:#06d14d;
+                }
+            }
+        }
     }
 }
+
 footer{
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width:100%;
-    background-color: red;
+    height: 12dvw;
+    background-color: #121212;
+    color: #6e6a6a;
+    
+
+    & span{
+        font-size: 14px;
+
+        & a{
+            color: #ffff;
+        }
+    }
+
     
 }
