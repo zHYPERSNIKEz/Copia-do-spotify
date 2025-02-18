@@ -23,7 +23,7 @@ body{
         background-color: #121212;
         color: var(--text-base-light);
         width: 100vh;
-        height: 100vh;
+        height: auto;
         border-radius: 8px;
 
         & .inicio{
@@ -70,6 +70,10 @@ body{
                 padding: 7px 31px;
                 margin: 0 0 8px;
                 
+                &:hover{
+                    border: 1px solid #ffff;
+                }
+
                 span.google{
                     background-image: url(../../../assets/icons/login/google.png);
                     background-repeat: no-repeat;
@@ -114,7 +118,46 @@ body{
         
         
         .login{
-            margin-top: 2rem;
+    
+            margin-top: 0.5rem;
+            
+            & form{
+                display: grid;
+                margin: 0.9rem;
+                padding: 2rem;
+                justify-content: center;
+                align-items: center;
+
+              
+            }
+            
+            & input{
+                margin: 6px 0 3px 0;
+                background-color: rgba(64, 63, 65, 0.295);
+                border: none;
+                border-radius: 10px;
+                width: 20rem;
+                height: 1.9rem;
+                color: #ffff;
+                margin-bottom: 1rem;
+            }
+            
+            & button{
+                border-radius: 50px;
+                border: none;
+                background-color:#06d14d;
+                width: auto;
+                height: 5vh;
+                cursor: pointer;
+                font-size: medium;
+                letter-spacing: 2px;
+               
+                &:hover{
+                    background-color: rgb(49, 218, 57);
+                    font-size: larger;
+                }
+            }
+           
         }
     }
 }
