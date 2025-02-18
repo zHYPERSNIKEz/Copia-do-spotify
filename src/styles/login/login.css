@@ -45,7 +45,64 @@ body{
             }
         }
 
-        
+        .logins{
+            display: grid;
+            gap: 0.5rem;
+            padding-bottom: 1rem;
+            justify-content: center;
+            align-items: center;
+            
+            & button{
+                position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 20rem;
+                height: 2rem;
+                text-align: center;
+                background: #000000;
+                border: 1px solid black;
+                border-radius: 50px;
+                color: #ffff;
+                cursor: pointer;
+                padding: 7px 31px;
+                margin: 0 0 8px;
+                
+                span.google{
+                    background-image: url(../../../assets/icons/login/google.png);
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    display: inline-block;
+                    width: 1rem;
+                    height: 1rem;
+                    position: absolute;
+                    left: 2rem;
+                }
+                span.facebook{
+                    background-image: url(../../../assets/icons/login/facebook.png);
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    display: inline-block;
+                    width: 1rem;
+                    height: 1rem;
+                    position: absolute;
+                    left: 2rem;
+                }
+                span.aplle{
+                    background-image: url(../../../assets/icons/login/logotipo-da-apple.png);
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    display: inline-block;
+                    width: 1rem;
+                    height: 1rem;
+                    position: absolute;
+                    left: 2rem;
+                }
+            }
+                
+            }
+            
+
     }
 }
 footer{
