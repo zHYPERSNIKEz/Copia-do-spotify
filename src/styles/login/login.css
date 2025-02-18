@@ -52,6 +52,8 @@ body{
             justify-content: center;
             align-items: center;
             border-bottom: 1px solid black;
+            
+
             & button{
                 position: relative;
                 display: flex;
@@ -103,6 +105,9 @@ body{
             }
             
 
+        .login{
+            margin-top: 2rem;
+        }
     }
 }
 footer{
