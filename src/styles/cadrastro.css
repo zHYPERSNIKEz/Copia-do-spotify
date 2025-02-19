@@ -8,7 +8,7 @@
 }
 
 body{
-    background-color: rgb(167, 116, 116);
+    background-color: rgb(44, 44, 44);
     color: #fff;
 }
 .containerPrincipal{
@@ -17,7 +17,8 @@ body{
     justify-content: center;
     align-items: center;
     margin: 6rem;
-    background-color: rgb(139, 199, 70);
+    padding:0.1rem;
+    
     
     .container{
         display: grid;
@@ -42,9 +43,138 @@ body{
 
             & h1{
                 font-size: 2rem;
+            } 
+        }
+
+        & .cadrastrar{
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            gap: 0.3rem;
+            margin: 0 0 1rem 0;
+
+            & span{
+                font-size: 1.5rem;
             }
-           
+
+            & input{
+                width: 17rem; 
+                height: auto;
+                padding: 0.6rem;
+                color: #fff;
+                border: none;
+                border-radius: 2px;
+                background-color: rgba(64, 63, 65, 0.39);
+
+            }
+
+            & a {
+                font-size: 1.2rem;
+                color: rgb(6, 230, 6);
+            }
+
+            & button{
+                width: 18.2rem;
+                height: auto;
+                border: none;
+                border-radius: 18px;
+                padding: 8px 32px;
+                background-color: rgb(6, 230, 6);
+                font-size: 1rem;
+                cursor: pointer;
+                margin-top: 0.5rem;
+
+                    &:hover{
+                        background-color:rgb(44, 253, 44) ;
+                    }
+            }
+        }
+       
+        
+        .divisor{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 0 1rem 0;
+            
+            & span{
+                font-size: 1rem;
+            }
+
+            & .barra{
+                border-bottom: 1px solid rgb(68, 68, 68);
+                width: 50%;
+                margin: 0.5rem;
+                gap: 1rem;
+            }
+        }
+    
+        & .increver{
+            position: relative;
+            display: grid;
+            justify-content: center;
+            gap: 1rem;
+            margin: 0 0 1rem 0;
+            
+
+            & button{
+                position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 20rem;
+                height: 2.9rem;
+                text-align: center;
+                background: #000000;
+                border: 1px solid black;
+                border-radius: 50px;
+                color: #ffff;
+                cursor: pointer;
+                padding: 7px 31px;
+                margin: 0 0 8px;
+                
+                &:hover{
+                    border: 1px solid #ffff;
+                }
+
+                & span.google{
+                    background-image: url(../../assets/icons/login/google.png);
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    display: inline-block;
+                    width: 1rem;
+                    height: 1rem;
+                    position: absolute;
+                    left: 2rem;
+                }
+                & span.facebook{
+                    background-image: url(../../assets/icons/login/facebook.png);
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    display: inline-block;
+                    width: 1rem;
+                    height: 1rem;
+                    position: absolute;
+                    left: 2rem;
+                }
+                & span.aplle{
+                    background-image: url(../../assets/icons/login/logotipo-da-apple.png);
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    display: inline-block;
+                    width: 1rem;
+                    height: 1rem;
+                    position: absolute;
+                    left: 2rem;
+                }
+            }
+
+
         }
         
+        
+        
+    
     }
+
 }
