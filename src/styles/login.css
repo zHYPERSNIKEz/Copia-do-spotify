@@ -150,7 +150,7 @@ body{
                 height: 5vh;
                 cursor: pointer;
                 font-size: medium;
-                letter-spacing: 0.8px;
+                
                
                 &:hover{
                     background-color: rgb(49, 218, 57);
