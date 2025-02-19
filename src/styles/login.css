@@ -75,7 +75,7 @@ body{
                 }
 
                 span.google{
-                    background-image: url(../../../assets/icons/login/google.png);
+                    background-image: url(../../assets/icons/login/google.png);
                     background-repeat: no-repeat;
                     background-size: contain;
                     display: inline-block;
@@ -85,7 +85,7 @@ body{
                     left: 2rem;
                 }
                 span.facebook{
-                    background-image: url(../../../assets/icons/login/facebook.png);
+                    background-image: url(../../assets/icons/login/facebook.png);
                     background-repeat: no-repeat;
                     background-size: contain;
                     display: inline-block;
@@ -95,7 +95,7 @@ body{
                     left: 2rem;
                 }
                 span.aplle{
-                    background-image: url(../../../assets/icons/login/logotipo-da-apple.png);
+                    background-image: url(../../assets/icons/login/logotipo-da-apple.png);
                     background-repeat: no-repeat;
                     background-size: contain;
                     display: inline-block;
