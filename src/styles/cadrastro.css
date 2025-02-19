@@ -168,13 +168,44 @@ body{
                     left: 2rem;
                 }
             }
-
+        
 
         }
         
+        & .barra2{
+            border-bottom: 1px solid rgb(68, 68, 68);
+            width: 60%;
+            margin: 1.5rem auto;
+        }
         
+       & .login{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 2rem auto;
+        font-size: 1.1rem;
         
-    
+        & span{
+            color: #888686c0;
+            margin-right:0.2rem;
+        }
+
+         & a{
+            color: #fff; 
+            cursor: pointer;
+         }
+       }
+        
+    & footer{
+        font-size: 0.8rem;
+        color:#888686c0;
     }
 
+        & a{
+            cursor: pointer;
+            color:#888686c0;
+            
+        }
+
+    }
 }
